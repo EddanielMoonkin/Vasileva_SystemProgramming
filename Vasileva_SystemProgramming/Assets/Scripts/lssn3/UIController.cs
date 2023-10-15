@@ -1,4 +1,4 @@
-using System.Collections;
+п»їusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -37,7 +37,7 @@ public class UIController : MonoBehaviour
         buttonSendMessage.onClick.AddListener(() => SendMessage());
         client.onMessageReceive += ReceiveMessage;
 
-        inputField.text = "Введите никнейм";
+        inputField.text = "Р’РІРµРґРёС‚Рµ РЅРёРєРЅРµР№Рј";
 }
 
     private void StartServer()
